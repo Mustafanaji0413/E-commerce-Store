@@ -28,8 +28,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://web-shop.herokuapp.com/', 'localhost', 'web-shop.herokuapp.com', 'https://web-shop.herokuapp.com/checkout']
+# ALLOWED_HOSTS = ['https://webshop0413.herokuapp.com/', 'localhost', 'webshop0413.herokuapp.com', 'https://webshop0413.herokuapp.com/checkout']
 
+ALLOWED_HOSTS = ['webshop0413.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -207,4 +208,4 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
 
 
-CSRF_TRUSTED_ORIGINS = ['web-shop.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['webshop0413.herokuapp.com']
